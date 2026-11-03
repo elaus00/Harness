@@ -1,0 +1,564 @@
+{
+  "schema_version": 1,
+  "kind": "local-installed-inventory",
+  "checked_at": "2026-11-02",
+  "timezone": "Asia/Seoul",
+  "skills": [
+    {
+      "name": "adapt",
+      "location": "/Users/elaus/.agents/skills/adapt",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".claude/skills/adapt/SKILL.md",
+        "skillFolderHash": "6b4101efd9ebb23edaafa0f557bfe34aacacbc97",
+        "installedAt": "2026-03-24T01:51:36.782Z",
+        "updatedAt": "2026-03-24T01:51:36.782Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "654dc3abfd3c741f0d694733f1d24cb24ab4728c9fbc620253fb2776329d180d",
+          "bytes": 7170,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "animate",
+      "location": "/Users/elaus/.agents/skills/animate",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/animate/SKILL.md",
+        "skillFolderHash": "4d2738bda35eb46927d8616654b010030936068f",
+        "installedAt": "2026-03-24T01:51:37.369Z",
+        "updatedAt": "2026-03-24T01:51:37.369Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "baa0033ac22d4a345be8531b5e2b68de750a15d7a4e9cd26afb17ef4f72320d2",
+          "bytes": 7545,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "arrange",
+      "location": "/Users/elaus/.agents/skills/arrange",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/arrange/SKILL.md",
+        "skillFolderHash": "0451e5ec75d955f313d3ddaaed3f06a9f79814d2",
+        "installedAt": "2026-03-24T01:51:38.273Z",
+        "updatedAt": "2026-03-24T01:51:38.273Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f158c13de18be821ab48025af99b85005b60962fbb1bc24964afe51e97181af0",
+          "bytes": 7307,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "audit",
+      "location": "/Users/elaus/.agents/skills/audit",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/audit/SKILL.md",
+        "skillFolderHash": "04b6117980b97f7e3a51ac0e2089e6ac4d209189",
+        "installedAt": "2026-03-24T01:51:38.744Z",
+        "updatedAt": "2026-03-24T01:51:38.744Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "93b144ef7a77cbd06eeb13988bbaf649e0f7cb4ea59d6ab3c85e30e7d0ce1fc9",
+          "bytes": 6151,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "bolder",
+      "location": "/Users/elaus/.agents/skills/bolder",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/bolder/SKILL.md",
+        "skillFolderHash": "8d66654aca53abf75f3e2723de47ec9bcf273b40",
+        "installedAt": "2026-03-24T01:51:39.397Z",
+        "updatedAt": "2026-03-24T01:51:39.397Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "bf2948f0af6ad168f6b3b53c632469f92d4f116c8da72e457616864e3b5559f1",
+          "bytes": 6628,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "clarify",
+      "location": "/Users/elaus/.agents/skills/clarify",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/clarify/SKILL.md",
+        "skillFolderHash": "c740d0c76a325b4ad207689b7a892acadeacf370",
+        "installedAt": "2026-03-24T01:51:39.845Z",
+        "updatedAt": "2026-03-24T01:51:39.845Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "1fc83a3311ebc3612b39751609089178b68e17907663f6d53df0b8c45b0982e3",
+          "bytes": 6643,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "colorize",
+      "location": "/Users/elaus/.agents/skills/colorize",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/colorize/SKILL.md",
+        "skillFolderHash": "86e8de4f9c4c8a9a913b622dcbc9c49fb6c29dad",
+        "installedAt": "2026-03-24T01:51:40.358Z",
+        "updatedAt": "2026-03-24T01:51:40.358Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "51aeecd4af1af0cdc5964a58add6943c007e4b7d6f0a38c28f65701bdceef032",
+          "bytes": 6759,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "critique",
+      "location": "/Users/elaus/.agents/skills/critique",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/critique/SKILL.md",
+        "skillFolderHash": "9406732fc2cb54dea46d4a141834c3126dcc41b8",
+        "installedAt": "2026-03-24T01:51:40.943Z",
+        "updatedAt": "2026-03-24T01:51:40.943Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "6e3808954e72fe5081cfcdd45cb877fc78467380313dc9dccfae86b662cb7c08",
+          "bytes": 5400,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "delight",
+      "location": "/Users/elaus/.agents/skills/delight",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/delight/SKILL.md",
+        "skillFolderHash": "15775cdff26163e5d17ab42b0f51bed4b484b72a",
+        "installedAt": "2026-03-24T01:51:41.482Z",
+        "updatedAt": "2026-03-24T01:51:41.482Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "db03aad84272fd2a00b0fd32f2adef94acd1e4273b22260a4be934f440740b2d",
+          "bytes": 9900,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "distill",
+      "location": "/Users/elaus/.agents/skills/distill",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/distill/SKILL.md",
+        "skillFolderHash": "9f3fd89d0086a4bd2c22e50ac788306a81157203",
+        "installedAt": "2026-03-24T01:51:42.137Z",
+        "updatedAt": "2026-03-24T01:51:42.137Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f1d644e6cf78b949ddfc0d1df191819ca26470922e9a780ccbee0ba51118c1d1",
+          "bytes": 6144,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "normalize",
+      "location": "/Users/elaus/.agents/skills/normalize",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/normalize/SKILL.md",
+        "skillFolderHash": "12509296c06f98b899b6d1c14aa1678f2036f48a",
+        "installedAt": "2026-03-24T01:51:42.607Z",
+        "updatedAt": "2026-03-24T01:51:42.607Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "ea96d7a5976051bf18ea6847ae0d6961ce7670f4fe33afd907b17911b2b18de9",
+          "bytes": 4019,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "extract",
+      "location": "/Users/elaus/.agents/skills/extract",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/extract/SKILL.md",
+        "skillFolderHash": "fb634bbc8eb607a5e27fa7bfa4418a8e8bfdd4bb",
+        "installedAt": "2026-03-24T01:51:43.267Z",
+        "updatedAt": "2026-03-24T01:51:43.267Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "31e6e3716b7874eae6ae5aab4557cfd7ace5c497174fae7f00a264cc69f689dc",
+          "bytes": 3839,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "onboard",
+      "location": "/Users/elaus/.agents/skills/onboard",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/onboard/SKILL.md",
+        "skillFolderHash": "f017516785faa798a83e24812b1cfdccbe59ce8e",
+        "installedAt": "2026-03-24T01:51:43.920Z",
+        "updatedAt": "2026-03-24T01:51:43.920Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "630e2335ba2efeef5152cf763ff09ce28b42de7978f2d3ebbb31189a231fb3a1",
+          "bytes": 8260,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "optimize",
+      "location": "/Users/elaus/.agents/skills/optimize",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/optimize/SKILL.md",
+        "skillFolderHash": "b6d90dbbaf2d4da5c6ece1a1b14ccf00edc80e79",
+        "installedAt": "2026-03-24T01:51:44.330Z",
+        "updatedAt": "2026-03-24T01:51:44.330Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "c6f29a93c2dda0c28819275455476afd187e6c02c1d03b992ed4900fd35dbf8b",
+          "bytes": 7705,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "polish",
+      "location": "/Users/elaus/.agents/skills/polish",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/polish/SKILL.md",
+        "skillFolderHash": "cc7e1c10570b85152cdfe23228741e93a8985b12",
+        "installedAt": "2026-03-24T01:51:44.858Z",
+        "updatedAt": "2026-03-24T01:51:44.858Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "c2c2a2677fec090ee585035a307e73a24c64354fdb437a6bfce6309408a6590e",
+          "bytes": 8002,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "teach-impeccable",
+      "location": "/Users/elaus/.agents/skills/teach-impeccable",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/teach-impeccable/SKILL.md",
+        "skillFolderHash": "6f7fb7c44d29fcc7760b3b6db320f772d89c476a",
+        "installedAt": "2026-03-24T01:51:45.310Z",
+        "updatedAt": "2026-03-24T01:51:45.310Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "c421175bd7c4da4333755222a012913a894a8f1aaa2fb11dfe5c3b65b5f02211",
+          "bytes": 2871,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "typeset",
+      "location": "/Users/elaus/.agents/skills/typeset",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/typeset/SKILL.md",
+        "skillFolderHash": "95ea36531b6b7c58becd412bbd7dd407ebdd949c",
+        "installedAt": "2026-03-24T01:51:45.772Z",
+        "updatedAt": "2026-03-24T01:51:45.772Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d61e8ded016c309b970861176f9e3eec37b20a6011aeda0bacae3e47bfee6539",
+          "bytes": 5680,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "frontend-design",
+      "location": "/Users/elaus/.agents/skills/frontend-design",
+      "status": "already-installed",
+      "source": {
+        "source": "pbakaus/impeccable",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+        "skillPath": ".agents/skills/frontend-design/SKILL.md",
+        "skillFolderHash": "e66b38c28d67584ac5a287d164023d1891e1c543",
+        "installedAt": "2026-03-24T03:10:49.193Z",
+        "updatedAt": "2026-03-24T03:10:49.193Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "c4645ae6c3c767b857f9f28255715a23ba302bccbe621dcce34e11324cbfbd63",
+          "bytes": 9429,
+          "mode": "0o644"
+        },
+        {
+          "path": "reference/color-and-contrast.md",
+          "sha256": "be502ad08270cd60cabb6769a6e1ed517ecaeeb7d40f6e610f1802689ee78ddc",
+          "bytes": 5291,
+          "mode": "0o644"
+        },
+        {
+          "path": "reference/interaction-design.md",
+          "sha256": "997d5e66ae54fcf8e59a0fcf0a2db49982ffe7b9b6cc091bcf64a3b3e0828ed7",
+          "bytes": 4204,
+          "mode": "0o644"
+        },
+        {
+          "path": "reference/motion-design.md",
+          "sha256": "c35a59b5f795721c914cfccf9b470e89a5010c563cd85ab46a67031531678f3f",
+          "bytes": 4753,
+          "mode": "0o644"
+        },
+        {
+          "path": "reference/responsive-design.md",
+          "sha256": "5add44195a42cf7fa82aecadaad79b8875446b930e06d087d73f3722533fd95a",
+          "bytes": 3464,
+          "mode": "0o644"
+        },
+        {
+          "path": "reference/spatial-design.md",
+          "sha256": "10c743ee8245fc1be9e8af2b79dd08b0dae19fcde33d46c9730c000d7e13b7cd",
+          "bytes": 3545,
+          "mode": "0o644"
+        },
+        {
+          "path": "reference/typography.md",
+          "sha256": "f18de3de5eea28c88af1904b913dc245a15815330b70c4e2babcee93398d855b",
+          "bytes": 5962,
+          "mode": "0o644"
+        },
+        {
+          "path": "reference/ux-writing.md",
+          "sha256": "0cd5e958d92be6e2331cb199d6ed5d98597aa20ec4922d4c3df56e7753cfc00c",
+          "bytes": 4330,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "brainstorming",
+      "location": "/Users/elaus/.agents/skills/brainstorming",
+      "status": "already-installed",
+      "source": {
+        "source": "obra/superpowers",
+        "sourceType": "github",
+        "sourceUrl": "https://github.com/obra/superpowers.git",
+        "skillPath": "skills/brainstorming/SKILL.md",
+        "skillFolderHash": "b14f49a55a8387cfa12ac89794ab79698d7fddbb",
+        "installedAt": "2026-07-16T17:18:13.109Z",
+        "updatedAt": "2026-07-16T17:18:13.109Z"
+      },
+      "upstream_commit": null,
+      "upstream_version": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e14914605f640e0841758e45d0ab2a53243b59b921f929e47921c99668f2e61d",
+          "bytes": 10435,
+          "mode": "0o644"
+        },
+        {
+          "path": "scripts/frame-template.html",
+          "sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
+          "bytes": 8094,
+          "mode": "0o644"
+        },
+        {
+          "path": "scripts/helper.js",
+          "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+          "bytes": 5615,
+          "mode": "0o644"
+        },
+        {
+          "path": "scripts/server.cjs",
+          "sha256": "2d2961ea8d11f56c5f4c3a1a68d22709efa5d7601a2246d8c880774e7e9e8412",
+          "bytes": 25693,
+          "mode": "0o644"
+        },
+        {
+          "path": "scripts/start-server.sh",
+          "sha256": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
+          "bytes": 6908,
+          "mode": "0o755"
+        },
+        {
+          "path": "scripts/stop-server.sh",
+          "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+          "bytes": 3263,
+          "mode": "0o755"
+        },
+        {
+          "path": "spec-document-reviewer-prompt.md",
+          "sha256": "95a0a195de9d984be2fffa95bab16fc8c563bc296a9cfc5e9c29cb3ece0d7457",
+          "bytes": 1747,
+          "mode": "0o644"
+        },
+        {
+          "path": "visual-companion.md",
+          "sha256": "3321a044c777d03d7177df41c77bb83155ff2a6d0c16b8a3d752426d29f14ea8",
+          "bytes": 13084,
+          "mode": "0o644"
+        }
+      ]
+    },
+    {
+      "name": "clear-with-lessons",
+      "location": ".agents/skills/clear-with-lessons",
+      "status": "created-project-local",
+      "source": {
+        "derived_from": "/Users/elaus/.claude/commands/clear-with-insight.md"
+      },
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "ea1662052d7f334f20af5db59378c5ab5b163beff8852aaccc1a65de37a6e6b5",
+          "bytes": 6547,
+          "mode": "0o644"
+        }
+      ]
+    }
+  ]
+}

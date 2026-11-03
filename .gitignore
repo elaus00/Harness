@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local databases and browser test output
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+playwright-report/
+test-results/
