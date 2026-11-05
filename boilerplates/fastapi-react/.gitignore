@@ -9,3 +9,10 @@ __pycache__/
 .env.*
 !.env.example
 .DS_Store
+
+data/
+*.sqlite3
+*.sqlite3-*
+test-results/
+playwright-report/
+artifacts/

@@ -1,0 +1,20 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      HARNESS_DATABASE_PATH: /app/data/harness.sqlite3
+      HARNESS_COOKIE_SECURE: ${HARNESS_COOKIE_SECURE:-false}
+      HARNESS_ALLOWED_ORIGINS: '${HARNESS_ALLOWED_ORIGINS:-["http://127.0.0.1:8080","http://localhost:8080"]}'
+    volumes:
+      - harness-data:/app/data
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "127.0.0.1:${HARNESS_PORT:-8080}:8080"
+    depends_on:
+      backend:
+        condition: service_healthy
+volumes:
+  harness-data:

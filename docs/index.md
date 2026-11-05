@@ -12,11 +12,14 @@
 | [초기 구축 계획](plans/2026-11-02-bootstrap.md) | 1차 범위와 완료 기준 | 완료 |
 | [프로젝트 템플릿](../templates/project/AGENTS.md) | 새 프로젝트 적용의 시작점 | 사용 |
 | [회고 스킬](../.agents/skills/clear-with-lessons/SKILL.md) | 교훈 저장과 다음 세션 인계 | 사용 |
-
 | [FastAPI + React·Vite](../boilerplates/fastapi-react/README.md) | 실행 가능한 풀스택 보일러플레이트 | 사용 |
 | [보일러플레이트 구축](plans/2026-11-03-fastapi-react.md) | 구성과 검증 결과 | 완료 |
-
 | [Starlette 테스트 클라이언트 교훈](lessons/2026-11-03_starlette-testclient.md) | 최신 테스트 의존성 전환과 검증 | 사용 |
+| [인증·대시보드](plans/2026-11-05-auth-dashboard.md) | 구성과 검증 결과 | 완료 |
+| [디자인 시스템](../boilerplates/fastapi-react/DESIGN_SYSTEM.md) | Atlassian 토큰과 공통 UI | 사용 |
+| [SQLite 요청 수명 교훈](lessons/2026-11-05_fastapi-sqlite-thread.md) | 실제 브라우저에서 발견한 연결 문제 | 사용 |
+
+| [README·Docker 검증](plans/2026-11-05-readme-docker.md) | 컨테이너 빌드·인증·데이터 유지 검증 | 완료 |
 
 ## 관리 규칙
 

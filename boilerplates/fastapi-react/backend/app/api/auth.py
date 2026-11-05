@@ -48,7 +48,7 @@ class User(BaseModel):
     name: str
 
 
-def require_user(request: Request, db=Depends(get_db)) -> User:
+def require_user(request: Request, db=Depends(get_db, scope="function")) -> User:
     token = request.cookies.get(COOKIE, "")
     row = db.execute(
         "SELECT u.id,u.email,u.name FROM users u JOIN sessions s ON u.id=s.user_id "
@@ -109,7 +109,10 @@ def start_session(user, request, response, db):
 
 @router.post("/register", response_model=User, status_code=201)
 def register(
-    data: RegisterInput, request: Request, response: Response, db=Depends(get_db)
+    data: RegisterInput,
+    request: Request,
+    response: Response,
+    db=Depends(get_db, scope="function"),
 ):
     throttle(request, db)
     hashed = passwords.hash(data.password)
@@ -127,7 +130,12 @@ def register(
 
 
 @router.post("/login", response_model=User)
-def login(data: LoginInput, request: Request, response: Response, db=Depends(get_db)):
+def login(
+    data: LoginInput,
+    request: Request,
+    response: Response,
+    db=Depends(get_db, scope="function"),
+):
     throttle(request, db)
     row = db.execute("SELECT * FROM users WHERE email=?", (str(data.email),)).fetchone()
     valid = passwords.verify(data.password, row["password_hash"] if row else DUMMY_HASH)
@@ -144,7 +152,7 @@ def me(user=Depends(require_user)):
 
 
 @router.post("/logout", status_code=204)
-def logout(request: Request, response: Response, db=Depends(get_db)):
+def logout(request: Request, response: Response, db=Depends(get_db, scope="function")):
     db.execute(
         "DELETE FROM sessions WHERE token_hash=?",
         (digest(request.cookies.get(COOKIE, "")),),

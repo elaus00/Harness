@@ -19,3 +19,10 @@ dist/
 *.db-*
 playwright-report/
 test-results/
+
+data/
+*.sqlite3
+*.sqlite3-*
+test-results/
+playwright-report/
+artifacts/

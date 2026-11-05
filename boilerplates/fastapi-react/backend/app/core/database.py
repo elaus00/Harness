@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS auth_attempts (
 
 
 def connect(path):
-    db = sqlite3.connect(path, timeout=10)
+    db = sqlite3.connect(path, timeout=10, check_same_thread=False)
     db.row_factory = sqlite3.Row
     db.execute("PRAGMA foreign_keys = ON")
     return db

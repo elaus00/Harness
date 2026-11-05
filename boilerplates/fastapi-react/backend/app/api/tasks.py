@@ -39,7 +39,7 @@ def record(db, user_id, message):
 
 
 @router.get("/workspace")
-def workspace(user=Depends(require_user), db=Depends(get_db)):
+def workspace(user=Depends(require_user), db=Depends(get_db, scope="function")):
     tasks = db.execute(
         "SELECT * FROM tasks WHERE user_id=? ORDER BY id DESC", (user.id,)
     )
@@ -55,7 +55,9 @@ def workspace(user=Depends(require_user), db=Depends(get_db)):
 
 
 @router.post("/tasks", status_code=201)
-def create_task(data: TaskInput, user=Depends(require_user), db=Depends(get_db)):
+def create_task(
+    data: TaskInput, user=Depends(require_user), db=Depends(get_db, scope="function")
+):
     now = datetime.now(timezone.utc).isoformat()
     cursor = db.execute(
         "INSERT INTO tasks(user_id,title,project,status,priority,created_at) "
@@ -70,7 +72,10 @@ def create_task(data: TaskInput, user=Depends(require_user), db=Depends(get_db))
 
 @router.patch("/tasks/{task_id}")
 def update_task(
-    task_id: int, data: TaskUpdate, user=Depends(require_user), db=Depends(get_db)
+    task_id: int,
+    data: TaskUpdate,
+    user=Depends(require_user),
+    db=Depends(get_db, scope="function"),
 ):
     task = db.execute(
         "SELECT * FROM tasks WHERE id=? AND user_id=?", (task_id, user.id)
@@ -89,7 +94,7 @@ def update_task(
 
 
 @router.post("/tasks/sample", status_code=201)
-def sample(user=Depends(require_user), db=Depends(get_db)):
+def sample(user=Depends(require_user), db=Depends(get_db, scope="function")):
     db.execute("BEGIN IMMEDIATE")
     if db.execute("SELECT 1 FROM tasks WHERE user_id=?", (user.id,)).fetchone():
         raise HTTPException(

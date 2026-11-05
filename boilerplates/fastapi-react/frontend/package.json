@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
+    "@atlaskit/platform-feature-flags": "^2.2.2",
     "@atlaskit/tokens": "^20.9.0",
     "lucide-react": "^1.66.0",
     "react": "^19.3.1",

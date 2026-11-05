@@ -1,4 +1,4 @@
-.PHONY: install backend frontend check smoke
+.PHONY: install backend frontend check smoke e2e
 
 install:
 	cd backend && uv sync --locked
@@ -18,3 +18,6 @@ check:
 
 smoke:
 	python3 scripts/smoke.py
+
+e2e:
+	cd frontend && npm run test:e2e

@@ -1,0 +1,18 @@
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim AS builder
+WORKDIR /app
+ENV UV_COMPILE_BYTECODE=1 UV_LINK_MODE=copy
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev --no-install-project
+
+FROM python:3.12-slim-bookworm AS runtime
+WORKDIR /app
+ENV PATH="/app/.venv/bin:$PATH" PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN groupadd --gid 10001 harness && useradd --uid 10001 --gid harness --no-create-home harness \
+    && mkdir -p /app/data && chown harness:harness /app/data
+COPY --from=builder /app/.venv /app/.venv
+COPY --chown=harness:harness app ./app
+USER harness
+EXPOSE 8000
+HEALTHCHECK --interval=10s --timeout=3s --start-period=10s --retries=5 \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health', timeout=2)"
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--no-proxy-headers"]
