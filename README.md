@@ -35,6 +35,7 @@ Docker 구성·컴파일은 실제 과제 요구에 맞춰 사용자가 지정 �
 
 ## 문서
 
+- [시험 시작 후 첫 50분 체크리스트](FIRST_50_MIN_CHECKLIST.md)
 - [3시간 AI 과제 진행 절차](workflow.md)
 - [선택 적용·포함 내용 안내](START_HERE.md)
 - [시험용 앱 실행·설정·검사](templates/exam/docs/OPERATIONS.md)
