@@ -12,6 +12,8 @@
 - **디자인**: Atlassian 공식 디자인 토큰과 공통 React UI 컴포넌트.
 - **Docker**: FastAPI와 Nginx 정적 웹 이미지를 Compose로 실행하고 같은 출처에서 API 연결.
 
+상세 실행 절차는 [HOW_TO_RUN](How_to_run.md)을 참고하세요.
+
 ## Docker로 빠르게 시작
 
 Docker Engine/Desktop과 Docker Compose 2.20 이상이 필요합니다. 다음 명령은 저장소 루트에서 실행합니다.

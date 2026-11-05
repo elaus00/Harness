@@ -5,6 +5,7 @@
 | 문서 | 목적 | 상태 |
 | --- | --- | --- |
 | [작업 규칙](../AGENTS.md) | 상시 작업 원칙 | 사용 |
+| [실행 안내](../How_to_run.md) | 준비·실행·이용·테스트·제한 사항 | 사용 |
 | [현재 상태](status.md) | 완료 사항·다음 작업·제약 | 사용 |
 | [작업 흐름](workflow.md) | 시작부터 검증·회고까지 | 사용 |
 | [스킬과 도구](tools.md) | 설치 상태·선택 기준·업데이트 | 사용 |
@@ -18,7 +19,6 @@
 | [인증·대시보드](plans/2026-11-05-auth-dashboard.md) | 구성과 검증 결과 | 완료 |
 | [디자인 시스템](../boilerplates/fastapi-react/DESIGN_SYSTEM.md) | Atlassian 토큰과 공통 UI | 사용 |
 | [SQLite 요청 수명 교훈](lessons/2026-11-05_fastapi-sqlite-thread.md) | 실제 브라우저에서 발견한 연결 문제 | 사용 |
-
 | [README·Docker 검증](plans/2026-11-05-readme-docker.md) | 컨테이너 빌드·인증·데이터 유지 검증 | 완료 |
 
 ## 관리 규칙
