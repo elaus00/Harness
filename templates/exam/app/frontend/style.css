@@ -1,0 +1,14 @@
+:root { color-scheme: light; font-family: sans-serif; color: #243238; background: #f6f7f5; }
+body { margin: 0; }
+main { max-width: 64rem; margin: auto; padding: 2rem 1.25rem 5rem; }
+header { border-bottom: 1px solid #b5c2c0; margin-bottom: 2rem; }
+section { margin: 2.5rem 0; }
+label { display: block; margin: 1rem 0; }
+input, textarea, button { font: inherit; padding: .6rem; }
+textarea { display: block; width: min(95%, 50rem); margin-top: .5rem; }
+button { margin: .25rem .5rem .25rem 0; cursor: pointer; }
+button:disabled { cursor: default; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+li { margin: .75rem 0; }
+[role=status] { white-space: pre-wrap; }
+:focus-visible { outline: 3px solid #176459; outline-offset: 3px; }

@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "kind": "exam-extraction-files",
+  "checked_at": "2026-11-05",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "121f0fcd766e4cd81520279ee3dbad81f77a846721d081a1e9f67063d1435ff1",
+      "bytes": 434
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "f6ab3c64f50c13d7fab025d130b5f06b13023ffb88e17ecaed73bfcad9b0838f",
+      "bytes": 96
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "aad54906b3e486b335d56c72acefc8e560904d34556d9dbc15bc3245d5d897ac",
+      "bytes": 2058
+    },
+    {
+      "path": "HOW_TO_RUN.md",
+      "sha256": "cc20e1b99039c519301a6f5f3f952c29fc0166de13115aa2bf1170f46f558bd4",
+      "bytes": 312
+    },
+    {
+      "path": "app/backend/harness_app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "app/backend/harness_app/auth.py",
+      "sha256": "b7ad68c696ca1a91536bddc95ca389a87d0c040df2be806a375cf4df06aba29e",
+      "bytes": 3263
+    },
+    {
+      "path": "app/backend/harness_app/config.py",
+      "sha256": "eb0984509e5d5ab57a871d2c5b354195c4dd119e3e1b02147bb193ff1a66ef21",
+      "bytes": 1673
+    },
+    {
+      "path": "app/backend/harness_app/database.py",
+      "sha256": "032b814084247d82e350fb5ba780a0a53e2101c3446eaddd8bbcf150e28bef2f",
+      "bytes": 3575
+    },
+    {
+      "path": "app/backend/harness_app/datasets.py",
+      "sha256": "16913231cce131c9a1dd4e75cf5db3a25731a6d18963be8c90053f3e0e375d0b",
+      "bytes": 4386
+    },
+    {
+      "path": "app/backend/harness_app/errors.py",
+      "sha256": "7681da8fb12c5ce8baa6253f0d4384f7934f9fa0d24ba4d1c3d70c1f924f9bdd",
+      "bytes": 509
+    },
+    {
+      "path": "app/backend/harness_app/jobs.py",
+      "sha256": "7571b36ebc058cfd8990c2d1cc6921491255197007a1baabc2afa2a3cc6baea2",
+      "bytes": 5294
+    },
+    {
+      "path": "app/backend/harness_app/main.py",
+      "sha256": "9144fadd76ce62604e3e39e0831da0e4de4b8cfbedfc931e79302855aada04eb",
+      "bytes": 7059
+    },
+    {
+      "path": "app/backend/harness_app/recover.py",
+      "sha256": "981fa27edb57589ef07ea780827bffb027e23f165a931f73bed8fdd203b043cf",
+      "bytes": 1346
+    },
+    {
+      "path": "app/frontend/app.js",
+      "sha256": "4c986a4d58067d684f1157f2f000ae18c31f76dd25a3f44d29d6fce8ee686fd3",
+      "bytes": 4500
+    },
+    {
+      "path": "app/frontend/index.html",
+      "sha256": "704c9cb6cdcdbf7b76bed3b1e7e84452fdb44d623b4a8c33ae82bdc0400da964",
+      "bytes": 2054
+    },
+    {
+      "path": "app/frontend/style.css",
+      "sha256": "09c5e5b5755832d34fb2a34fe87ad792c9306368d2e259c53140eea663187945",
+      "bytes": 737
+    },
+    {
+      "path": "contracts.py",
+      "sha256": "38c55ae6d58c41a6c61226c55e24e0b0b2899ffbf01577d5f408726e98f153c0",
+      "bytes": 825
+    },
+    {
+      "path": "datasets/invalid/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "datasets/original/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "datasets/valid/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "docs/DECISION.md",
+      "sha256": "6a23172cd606c6160448c4c27a709a175c84379389d285de87b80ca42a5ef498",
+      "bytes": 572
+    },
+    {
+      "path": "docs/INDEX.md",
+      "sha256": "1fdff4d0ad49cb5b8abc9d752f13f3378709d3196e77643d4209c1355e31d52d",
+      "bytes": 1117
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "sha256": "9a3deb69791d7a1f1c814d40ba743c3079541e2cec46d345da553d4ddce48b91",
+      "bytes": 8964
+    },
+    {
+      "path": "docs/PRD.md",
+      "sha256": "1afaa00bc20cb8468395aefe9096dab69d78bfd324469400993771532a72018c",
+      "bytes": 447
+    },
+    {
+      "path": "docs/STATUS.md",
+      "sha256": "be56c14fea13d2d03866945b07b7aec7e821bf1dc52921ed74f5dabbf5a2c8ab",
+      "bytes": 516
+    },
+    {
+      "path": "docs/TASKS.md",
+      "sha256": "fd21baaa9b8f6a7b626ae7e512952f43ab0f0907bcdebe5a7a340f54f9bbf1b1",
+      "bytes": 243
+    },
+    {
+      "path": "docs/research/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "engine/__init__.py",
+      "sha256": "96c5fbc0fefa679eaf00cb64c2567f4f0a1256edae5394f87e0879fc0031148b",
+      "bytes": 310
+    },
+    {
+      "path": "output/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "prompts/QUICKSTART.txt",
+      "sha256": "19809b63fba3eed24ce1ac0c777c15c3c1ca040aabf1d451efd19894d464a1c2",
+      "bytes": 1822
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f3ec5373039caf2c6adc1266de72b6c97a80db22156613cb2a4304b59af16d94",
+      "bytes": 506
+    },
+    {
+      "path": "scripts/check_boundaries.py",
+      "sha256": "b744229f9937ddad3d1b1d8ceb9937348d1825838871563a08c3af42e4166693",
+      "bytes": 1320
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "d1bd04cf29a315c3f7976621248f0717a1df49e2baaca1f6b0cf2e3249965939",
+      "bytes": 437
+    },
+    {
+      "path": "tests/test_auth.py",
+      "sha256": "8668a94eaaa133daaaf7f7939c8888fd3eb120bb622676ed6cef5c28319cd048",
+      "bytes": 3981
+    },
+    {
+      "path": "tests/test_base.py",
+      "sha256": "d2d7215923011038d181fe2603b0c4fb3b7ad2cffa00fdfbb04314537780c58d",
+      "bytes": 2874
+    },
+    {
+      "path": "tests/test_boundaries.py",
+      "sha256": "7fa132e70ba741024e989e5ff02fb3ac392754020c9291923858344641ce4928",
+      "bytes": 1133
+    },
+    {
+      "path": "tests/test_validator_unconfigured.py",
+      "sha256": "dd195cdf7be2564fd1b59a97627777b69d2cf0fc163536c7520587bdf793cc1e",
+      "bytes": 1025
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "sha256": "1587a0b372dd793a202e28e5ae610e5fa832fd6dd02d66e857b4749ec6262b39",
+      "bytes": 7763
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "8054092704d0ab9ffea1c7672e062bae8aba98d7a7213295b5640f7b7bc56408",
+      "bytes": 48448
+    },
+    {
+      "path": "validator/__init__.py",
+      "sha256": "2626a8447ca37251be84ec8fff48eb36a6e67ca56bcc856d324cd3a4c21e2300",
+      "bytes": 311
+    }
+  ]
+}

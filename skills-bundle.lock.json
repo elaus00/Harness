@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "kind": "vendored-project-skills",
+  "checked_at": "2026-11-05",
+  "skills": [
+    {
+      "name": "clear-with-lessons",
+      "location": ".agents/skills/clear-with-lessons",
+      "repository": null,
+      "upstream_commit": null,
+      "upstream_path": null,
+      "upstream_version": null,
+      "source": "Harness project-local skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "2c501583368bf39f6603da6c4c35bf2e6637a2a3e9e61828480dbc8a506ac457",
+          "bytes": 6662
+        }
+      ]
+    },
+    {
+      "name": "exam-data-profile",
+      "source": "Harness project-local skill",
+      "upstream_commit": null,
+      "upstream_version": null,
+      "location": ".agents/skills/exam-data-profile",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "ec702d2682270f23a04c674c9dceda9da6b1dfd0675c872b601b5596625f8881",
+          "bytes": 1460
+        }
+      ]
+    },
+    {
+      "name": "exam-dataset-variants",
+      "source": "Harness project-local skill",
+      "upstream_commit": null,
+      "upstream_version": null,
+      "location": ".agents/skills/exam-dataset-variants",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "1570a9a4a3409b1e43aa648952facb8f710ee24ddbf3767784dac3535f692da6",
+          "bytes": 1211
+        }
+      ]
+    },
+    {
+      "name": "exam-finalize",
+      "source": "Harness project-local skill",
+      "upstream_commit": null,
+      "upstream_version": null,
+      "location": ".agents/skills/exam-finalize",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f4d3189ab12e4f6c590c48322ed0dd98769bf7ea99b6eb33c680075190c71189",
+          "bytes": 1479
+        }
+      ]
+    },
+    {
+      "name": "exam-requirements",
+      "source": "Harness project-local skill",
+      "upstream_commit": null,
+      "upstream_version": null,
+      "location": ".agents/skills/exam-requirements",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e8f2163185c2088242668e9e0538ee6081c118ef1cc7075d1b59be7740c94496",
+          "bytes": 1289
+        }
+      ]
+    },
+    {
+      "name": "exam-resume",
+      "source": "Harness project-local skill",
+      "upstream_commit": null,
+      "upstream_version": null,
+      "location": ".agents/skills/exam-resume",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "23b76ebce447f5b0fd8b8440883320e532fa747113faa97e52bcf238d4ab8c64",
+          "bytes": 1186
+        }
+      ]
+    },
+    {
+      "name": "exam-validator",
+      "source": "Harness project-local skill",
+      "upstream_commit": null,
+      "upstream_version": null,
+      "location": ".agents/skills/exam-validator",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d53008f2c7450afd31b38c01482db40369c259d51a84ed1331beb932570fc332",
+          "bytes": 1355
+        }
+      ]
+    },
+    {
+      "name": "humanizer-ko",
+      "location": ".agents/skills/humanizer-ko",
+      "repository": "https://github.com/IsaacEryn/humanizer-ko",
+      "upstream_commit": "b1562c26315b8d264d7830cd98d280e4d92333ea",
+      "upstream_path": ".",
+      "upstream_version": "1.5.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "6a209752bbd7526ef40a062248ad6d6565683f77eb84cf1c81c70da1580a2f0d",
+          "bytes": 1129
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "4a1f20c0bb432cc5484439d1e5686f6ac3681c6970dcd6fc5156ec27dd066b10",
+          "bytes": 48382
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "749dcb94751039b5e5c1d4e39a9e766bb17348045eb28c4cda46625a30d348e2",
+          "bytes": 258
+        },
+        {
+          "path": "references/academic-papers.md",
+          "sha256": "77eebd92625cc79456d6b93664d849a1d88eb0a68caddf5adbfb38d7f2ad6c94",
+          "bytes": 29043
+        },
+        {
+          "path": "references/spoken-scripts.md",
+          "sha256": "7648e44957b99f8ff94bf94360bf35a3b732adf16b939c38c360ad9455723ab6",
+          "bytes": 2770
+        }
+      ]
+    },
+    {
+      "name": "polars",
+      "location": ".agents/skills/polars",
+      "repository": "https://github.com/polars-inc/skills",
+      "upstream_commit": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "upstream_path": "skills/polars",
+      "upstream_version": null,
+      "license": "MIT",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "f3704cbff1dbdd5a30cec6e812e1b9be2e52c31ffe965f20361b2db911d116ae",
+          "bytes": 1062
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "e4e61e8a22519e917514747107a793675ed391dd4bf3ad04d5c2203132d5f332",
+          "bytes": 10944
+        },
+        {
+          "path": "references/contexts.md",
+          "sha256": "9a35ec14509715b2844980e089b7e36dc75465e53138cc4f60335a3a5060feb4",
+          "bytes": 8294
+        },
+        {
+          "path": "references/expressions.md",
+          "sha256": "7fda3c873a394e8e6fa1ae5d003f4c7dbeaa9da1ad12eb160984bf27c7a18444",
+          "bytes": 12677
+        },
+        {
+          "path": "references/insight-recipes.md",
+          "sha256": "91424ab3686685d188faa17e685ee4e0319c4fd67ad2a17736b256af19b784dd",
+          "bytes": 5499
+        },
+        {
+          "path": "references/lazy-api.md",
+          "sha256": "fe8d8ef81ab95aa88be3320906ecd144f40fe9e9cd0350e6c592ec238e1bff1e",
+          "bytes": 5245
+        },
+        {
+          "path": "references/pandas-to-polars.md",
+          "sha256": "5ecadc60292edde82744c632288ae4201dc096a119731e8d13dd27da40fbbb92",
+          "bytes": 9579
+        },
+        {
+          "path": "references/sql.md",
+          "sha256": "b54bfa0ef65325d085c9033e1a2f5f4010b946f15111c3146ac34b9890aae09c",
+          "bytes": 2910
+        }
+      ]
+    }
+  ]
+}

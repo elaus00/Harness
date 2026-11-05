@@ -1,0 +1,25 @@
+[project]
+name = "exam-harness"
+version = "0.1.0"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "polars>=1.32,<2",
+    "pwdlib[argon2]>=0.3.1",
+    "pydantic-settings>=2.0,<3",
+    "uvicorn>=0.30,<1",
+]
+
+[dependency-groups]
+dev = ["httpx2>=2.16.0", "pytest>=8,<10", "ruff>=0.9,<1"]
+
+[tool.pytest.ini_options]
+pythonpath = ["app/backend", "."]
+testpaths = ["tests"]
+filterwarnings = ["error"]
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
